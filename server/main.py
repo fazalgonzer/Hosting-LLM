@@ -3,8 +3,8 @@ from typing import AsyncIterator
 
 from fastapi import FastAPI, HTTPException, Request
 
-from server.model_service import MODEL_NAME, ModelService
-from server.schemas import GenerateRequest, GenerateResponse
+from model_service import MODEL_NAME, ModelService
+from schemas import GenerateRequest, GenerateResponse
 
 
 @asynccontextmanager
