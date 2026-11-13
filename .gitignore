@@ -27,3 +27,7 @@ Thumbs.db
 Desktop.ini
 
 models
+dataset
+medical-lora
+medical-lora-v2
+medical-lora-v3
